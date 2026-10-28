@@ -1,7 +1,7 @@
 from build import L
 
 TITLE = "Tiếng Trung du lịch"
-OVERVIEW = "8 bài từ HSK 1 đến HSK 5 cho chuyến đi Trung Quốc: sân bay, khách sạn, tàu điện và tàu cao tốc, nhà hàng, tham quan, xử lý sự cố, homestay/văn hóa trà và khiếu nại."
+OVERVIEW = "12 bài từ HSK 1 đến HSK 5 cho chuyến đi Trung Quốc: sân bay, khách sạn, tàu điện và tàu cao tốc, nhà hàng, tham quan, xử lý sự cố, homestay/văn hóa trà và khiếu nại."
 
 LESSONS = [
     L("A1", "Giao tiếp", "Làm thủ tục ở sân bay",
@@ -172,3 +172,7 @@ LESSONS = [
        ("「处理」 nghĩa là:", ["xử lý", "đặt trước", "gặp mặt"], 0, "处理 = xử lý.")],
       ["Phàn nàn lịch sự về phòng không đúng yêu cầu và đề xuất cách giải quyết.", "Đóng vai quản lý khách sạn xin lỗi và đề nghị giảm giá."]),
 ]
+
+from extras import TRAVEL  # noqa: E402
+
+LESSONS += TRAVEL

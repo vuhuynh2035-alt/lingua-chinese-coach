@@ -1,9 +1,9 @@
 {
  "id": "business",
  "title": "Tiếng Trung công sở",
- "version": "1.0.0",
+ "version": "1.1.0",
  "framework": "HSK 1–5",
- "overview": "8 bài từ HSK 1 đến HSK 5 cho môi trường văn phòng Trung Quốc: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, tiếp khách và thương lượng.",
+ "overview": "12 bài từ HSK 1 đến HSK 5 cho môi trường văn phòng Trung Quốc: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, tiếp khách và thương lượng.",
  "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo HSK/CEFR",
  "references": [
   {
@@ -415,6 +415,198 @@
    "audioIds": []
   },
   {
+   "id": "business-a1-3",
+   "level": "A1",
+   "unit": "HSK 1-2 · Bài 3",
+   "category": "Từ vựng",
+   "title": "Đồ dùng văn phòng và lịch làm việc",
+   "objective": "Gọi tên đồ dùng văn phòng, mượn đồ và nói giờ làm việc.",
+   "reading": "小明: 不好意思,能借我一下订书机吗?\n同事: 给你。\n小明: 公司几点上班,几点下班?\n同事: 九点上班,六点下班。中午休息一个小时。",
+   "dialogue": [
+    {
+     "speaker": "小明",
+     "text": "不好意思,能借我一下订书机吗?",
+     "phonetic": "Bù hǎoyìsi, néng jiè wǒ yíxià dìngshūjī ma?",
+     "translation": "Xin lỗi, cho tôi mượn cái dập ghim một chút được không?"
+    },
+    {
+     "speaker": "同事",
+     "text": "给你。",
+     "phonetic": "Gěi nǐ.",
+     "translation": "Đây."
+    },
+    {
+     "speaker": "小明",
+     "text": "公司几点上班,几点下班?",
+     "phonetic": "Gōngsī jǐ diǎn shàngbān, jǐ diǎn xiàbān?",
+     "translation": "Công ty mấy giờ vào làm, mấy giờ tan?"
+    },
+    {
+     "speaker": "同事",
+     "text": "九点上班,六点下班。中午休息一个小时。",
+     "phonetic": "Jiǔ diǎn shàngbān, liù diǎn xiàbān. Zhōngwǔ xiūxi yí gè xiǎoshí.",
+     "translation": "9 giờ vào làm, 6 giờ tan. Trưa nghỉ một tiếng."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "订书机",
+     "reading": "dìngshūjī",
+     "definition": "dập ghim",
+     "example": "订书机在桌子上。 (Dập ghim ở trên bàn.)"
+    },
+    {
+     "term": "借",
+     "reading": "jiè",
+     "definition": "mượn, cho mượn",
+     "example": "能借我一支笔吗?(Cho tôi mượn một cây bút được không?)"
+    },
+    {
+     "term": "复印机",
+     "reading": "fùyìnjī",
+     "definition": "máy photocopy",
+     "example": "复印机坏了。 (Máy photo hỏng rồi.)"
+    },
+    {
+     "term": "上班",
+     "reading": "shàngbān",
+     "definition": "đi làm",
+     "example": "我九点上班。 (Tôi 9 giờ vào làm.)"
+    },
+    {
+     "term": "文件",
+     "reading": "wénjiàn",
+     "definition": "tài liệu, văn bản",
+     "example": "请把文件给我。 (Xin đưa tài liệu cho tôi.)"
+    }
+   ],
+   "grammar": {
+    "title": "借 và 从……到……",
+    "explanation": "借 vừa là mượn vừa là cho mượn: 借我 (cho tôi mượn), 向他借 (mượn anh ấy). Khoảng thời gian: 从九点到六点. Lượng từ: 一支笔, 一份文件.",
+    "examples": [
+     "我从九点工作到五点。[wǒ cóng jiǔ diǎn gōngzuò dào wǔ diǎn] (Tôi làm từ 9 đến 5 giờ.)",
+     "能借我一下你的笔吗?[néng jiè wǒ yíxià nǐ de bǐ ma] (Cho tôi mượn bút của bạn chút được không?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Vần -ing và -in",
+    "tip": "订 dìng (-ing), 印 yìn (-in): lưỡi khác nhau ở âm cuối. 机 jī không bật hơi.",
+    "words": [
+     "订书机",
+     "复印机",
+     "文件",
+     "上班"
+    ]
+   },
+   "speakingTasks": [
+    "Hỏi mượn 2 đồ dùng văn phòng một cách lịch sự.",
+    "Nói giờ làm việc và giờ nghỉ trưa ở công ty bạn."
+   ],
+   "questions": [
+    {
+     "prompt": "Nhờ mượn bút lịch sự:",
+     "options": [
+      "你笔借我。",
+      "借笔你我吗?",
+      "能借我一支笔吗?"
+     ],
+     "answer": 2,
+     "explanation": "能 + 借我 + N + 吗?"
+    },
+    {
+     "prompt": "“Từ 9 giờ đến 6 giờ” là:",
+     "options": [
+      "九点从到六点",
+      "到九点从六点",
+      "从九点到六点"
+     ],
+     "answer": 2,
+     "explanation": "从……到……"
+    },
+    {
+     "prompt": "「文件」 là:",
+     "options": [
+      "bàn làm việc",
+      "tài liệu",
+      "máy tính"
+     ],
+     "answer": 1,
+     "explanation": "文件 = tài liệu."
+    },
+    {
+     "prompt": "「复印机」 là:",
+     "options": [
+      "máy photocopy",
+      "máy bán hàng",
+      "máy lạnh"
+     ],
+     "answer": 0,
+     "explanation": "复印 = sao chụp."
+    },
+    {
+     "prompt": "「借」 có nghĩa là gì?",
+     "options": [
+      "dập ghim",
+      "tài liệu, văn bản",
+      "mượn, cho mượn"
+     ],
+     "answer": 2,
+     "explanation": "「借」 [jiè] = mượn, cho mượn."
+    },
+    {
+     "prompt": "「文件」 đọc là gì?",
+     "options": [
+      "wénjiàn",
+      "dìngshūjī",
+      "fùyìnjī"
+     ],
+     "answer": 0,
+     "explanation": "「文件」 đọc là [wénjiàn], nghĩa là tài liệu, văn bản."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿在桌子上。  (Dập ghim ở trên bàn.)",
+     "options": [
+      "上班",
+      "复印机",
+      "订书机"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「订书机」 (dập ghim). Câu đầy đủ: 订书机在桌子上。"
+    },
+    {
+     "prompt": "「复印机」 có nghĩa là gì?",
+     "options": [
+      "máy photocopy",
+      "dập ghim",
+      "đi làm"
+     ],
+     "answer": 0,
+     "explanation": "「复印机」 [fùyìnjī] = máy photocopy."
+    },
+    {
+     "prompt": "「复印机」 đọc là gì?",
+     "options": [
+      "dìngshūjī",
+      "shàngbān",
+      "fùyìnjī"
+     ],
+     "answer": 2,
+     "explanation": "「复印机」 đọc là [fùyìnjī], nghĩa là máy photocopy."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 我九点＿＿＿。  (Tôi 9 giờ vào làm.)",
+     "options": [
+      "复印机",
+      "上班",
+      "订书机"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「上班」 (đi làm). Câu đầy đủ: 我九点上班。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "business-a2-1",
    "level": "A2",
    "unit": "HSK 3 · Bài 1",
@@ -806,6 +998,198 @@
      ],
      "answer": 1,
      "explanation": "Đáp án: 「星期」 (thứ, tuần). Câu đầy đủ: 今天星期几?"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-a2-3",
+   "level": "A2",
+   "unit": "HSK 3 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Phỏng vấn xin việc",
+   "objective": "Giới thiệu bản thân, kinh nghiệm và lý do ứng tuyển.",
+   "reading": "面试官: 请你先做一下自我介绍。\n小明: 我叫阮明,在越南做了三年工程师。\n面试官: 你为什么想来我们公司?\n小明: 因为我对贵公司的技术很感兴趣。",
+   "dialogue": [
+    {
+     "speaker": "面试官",
+     "text": "请你先做一下自我介绍。",
+     "phonetic": "Qǐng nǐ xiān zuò yíxià zìwǒ jièshào.",
+     "translation": "Mời bạn tự giới thiệu trước."
+    },
+    {
+     "speaker": "小明",
+     "text": "我叫阮明,在越南做了三年工程师。",
+     "phonetic": "Wǒ jiào Ruǎn Míng, zài Yuènán zuò le sān nián gōngchéngshī.",
+     "translation": "Tôi là Nguyễn Minh, đã làm kỹ sư 3 năm ở Việt Nam."
+    },
+    {
+     "speaker": "面试官",
+     "text": "你为什么想来我们公司?",
+     "phonetic": "Nǐ wèi shénme xiǎng lái wǒmen gōngsī?",
+     "translation": "Vì sao bạn muốn đến công ty chúng tôi?"
+    },
+    {
+     "speaker": "小明",
+     "text": "因为我对贵公司的技术很感兴趣。",
+     "phonetic": "Yīnwèi wǒ duì guì gōngsī de jìshù hěn gǎn xìngqù.",
+     "translation": "Vì tôi rất quan tâm đến công nghệ của quý công ty."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "自我介绍",
+     "reading": "zìwǒ jièshào",
+     "definition": "tự giới thiệu",
+     "example": "请做一下自我介绍。 (Xin tự giới thiệu.)"
+    },
+    {
+     "term": "工程师",
+     "reading": "gōngchéngshī",
+     "definition": "kỹ sư",
+     "example": "他是一名工程师。 (Anh ấy là một kỹ sư.)"
+    },
+    {
+     "term": "贵公司",
+     "reading": "guì gōngsī",
+     "definition": "quý công ty",
+     "example": "我想在贵公司工作。 (Tôi muốn làm ở quý công ty.)"
+    },
+    {
+     "term": "感兴趣",
+     "reading": "gǎn xìngqù",
+     "definition": "quan tâm, hứng thú",
+     "example": "我对中国文化感兴趣。 (Tôi quan tâm văn hóa Trung Quốc.)"
+    },
+    {
+     "term": "经验",
+     "reading": "jīngyàn",
+     "definition": "kinh nghiệm",
+     "example": "我有三年工作经验。 (Tôi có 3 năm kinh nghiệm.)"
+    }
+   ],
+   "grammar": {
+    "title": "对……感兴趣 / V 了 + thời lượng",
+    "explanation": "Quan tâm: 对 + N + 感兴趣. Làm bao lâu: V + 了 + thời lượng + N (做了三年工程师). Lý do: 因为……. Gọi công ty người khác lịch sự: 贵公司.",
+    "examples": [
+     "我对管理工作很感兴趣。[wǒ duì guǎnlǐ gōngzuò hěn gǎn xìngqù] (Tôi rất quan tâm công việc quản lý.)",
+     "我学了两年中文。[wǒ xué le liǎng nián Zhōngwén] (Tôi đã học tiếng Trung hai năm.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nói rõ ràng, tự tin",
+    "tip": "Âm 兴趣 xìngqù (q bật hơi, ü), 经验 jīngyàn (-ing / -an). Kết thúc: 谢谢您给我这个机会.",
+    "words": [
+     "自我介绍",
+     "工程师",
+     "感兴趣",
+     "经验"
+    ]
+   },
+   "speakingTasks": [
+    "Tự giới thiệu trong buổi phỏng vấn (tên, kinh nghiệm, lý do).",
+    "Thầy/cô làm người phỏng vấn, hãy trả lời câu 「你的优点是什么?」."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi quan tâm đến IT.”",
+     "options": [
+      "我感兴趣IT对。",
+      "我IT对兴趣感。",
+      "我对IT感兴趣。"
+     ],
+     "answer": 2,
+     "explanation": "对 + N + 感兴趣."
+    },
+    {
+     "prompt": "Khi nói chuyện, “quý công ty” là:",
+     "options": [
+      "公司你们的",
+      "你公司",
+      "贵公司"
+     ],
+     "answer": 2,
+     "explanation": "贵 = quý (tôn kính)."
+    },
+    {
+     "prompt": "“Tôi làm kỹ sư 3 năm.”",
+     "options": [
+      "我三年做了工程师了年。",
+      "我做工程师了三。",
+      "我做了三年工程师。"
+     ],
+     "answer": 2,
+     "explanation": "V + 了 + thời lượng + N."
+    },
+    {
+     "prompt": "「经验」 nghĩa là:",
+     "options": [
+      "kinh tế",
+      "kinh nghiệm",
+      "kỳ thi"
+     ],
+     "answer": 1,
+     "explanation": "经验 = kinh nghiệm."
+    },
+    {
+     "prompt": "「感兴趣」 có nghĩa là gì?",
+     "options": [
+      "kỹ sư",
+      "quan tâm, hứng thú",
+      "quý công ty"
+     ],
+     "answer": 1,
+     "explanation": "「感兴趣」 [gǎn xìngqù] = quan tâm, hứng thú."
+    },
+    {
+     "prompt": "「贵公司」 đọc là gì?",
+     "options": [
+      "jīngyàn",
+      "guì gōngsī",
+      "gōngchéngshī"
+     ],
+     "answer": 1,
+     "explanation": "「贵公司」 đọc là [guì gōngsī], nghĩa là quý công ty."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 他是一名＿＿＿。  (Anh ấy là một kỹ sư.)",
+     "options": [
+      "工程师",
+      "自我介绍",
+      "贵公司"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「工程师」 (kỹ sư). Câu đầy đủ: 他是一名工程师。"
+    },
+    {
+     "prompt": "「贵公司」 có nghĩa là gì?",
+     "options": [
+      "quý công ty",
+      "kinh nghiệm",
+      "kỹ sư"
+     ],
+     "answer": 0,
+     "explanation": "「贵公司」 [guì gōngsī] = quý công ty."
+    },
+    {
+     "prompt": "「自我介绍」 đọc là gì?",
+     "options": [
+      "jīngyàn",
+      "gǎn xìngqù",
+      "zìwǒ jièshào"
+     ],
+     "answer": 2,
+     "explanation": "「自我介绍」 đọc là [zìwǒ jièshào], nghĩa là tự giới thiệu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 我想在＿＿＿工作。  (Tôi muốn làm ở quý công ty.)",
+     "options": [
+      "经验",
+      "贵公司",
+      "工程师"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「贵公司」 (quý công ty). Câu đầy đủ: 我想在贵公司工作。"
     }
    ],
    "audioIds": []
@@ -1207,6 +1591,198 @@
    "audioIds": []
   },
   {
+   "id": "business-b1-3",
+   "level": "B1",
+   "unit": "HSK 4 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Thuyết trình về số liệu",
+   "objective": "Mô tả biểu đồ, tăng giảm và so sánh số liệu.",
+   "reading": "小明: 请大家看一下这张图表。\n小明: 本季度销售额比上季度增长了百分之十五。\n经理: 增长的主要原因是什么?\n小明: 主要是由于新产品卖得很好。",
+   "dialogue": [
+    {
+     "speaker": "小明",
+     "text": "请大家看一下这张图表。",
+     "phonetic": "Qǐng dàjiā kàn yíxià zhè zhāng túbiǎo.",
+     "translation": "Mời mọi người xem biểu đồ này."
+    },
+    {
+     "speaker": "小明",
+     "text": "本季度销售额比上季度增长了百分之十五。",
+     "phonetic": "Běn jìdù xiāoshòu'é bǐ shàng jìdù zēngzhǎng le bǎi fēn zhī shíwǔ.",
+     "translation": "Doanh thu quý này tăng 15% so với quý trước."
+    },
+    {
+     "speaker": "经理",
+     "text": "增长的主要原因是什么?",
+     "phonetic": "Zēngzhǎng de zhǔyào yuányīn shì shénme?",
+     "translation": "Nguyên nhân chính của tăng trưởng là gì?"
+    },
+    {
+     "speaker": "小明",
+     "text": "主要是由于新产品卖得很好。",
+     "phonetic": "Zhǔyào shì yóuyú xīn chǎnpǐn mài de hěn hǎo.",
+     "translation": "Chủ yếu là do sản phẩm mới bán rất chạy."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "图表",
+     "reading": "túbiǎo",
+     "definition": "biểu đồ",
+     "example": "请看图表。 (Xin xem biểu đồ.)"
+    },
+    {
+     "term": "销售额",
+     "reading": "xiāoshòu'é",
+     "definition": "doanh thu bán hàng",
+     "example": "销售额提高了。 (Doanh thu đã tăng.)"
+    },
+    {
+     "term": "增长",
+     "reading": "zēngzhǎng",
+     "definition": "tăng trưởng",
+     "example": "用户增长很快。 (Người dùng tăng nhanh.)"
+    },
+    {
+     "term": "下降",
+     "reading": "xiàjiàng",
+     "definition": "giảm xuống",
+     "example": "成本下降了。 (Chi phí đã giảm.)"
+    },
+    {
+     "term": "季度",
+     "reading": "jìdù",
+     "definition": "quý",
+     "example": "第三季度很好。 (Quý ba rất tốt.)"
+    }
+   ],
+   "grammar": {
+    "title": "比……增长/下降了…… và 由于",
+    "explanation": "So sánh có mức độ: A 比 B + 增长/下降了 + số. Nguyên nhân trang trọng: 由于……. Phần trăm: 百分之 + số.",
+    "examples": [
+     "成本比去年下降了百分之五。[chéngběn bǐ qùnián xiàjiàng le bǎi fēn zhī wǔ] (Chi phí giảm 5% so với năm ngoái.)",
+     "由于天气原因,航班取消了。[yóuyú tiānqì yuányīn, hángbān qǔxiāo le] (Do thời tiết, chuyến bay bị hủy.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc số liệu",
+    "tip": "百分之十五 bǎi fēn zhī shíwǔ. 增长 zēngzhǎng: z (thẳng lưỡi) và zh (cuốn lưỡi) trong một từ.",
+    "words": [
+     "增长",
+     "下降",
+     "销售额",
+     "季度"
+    ]
+   },
+   "speakingTasks": [
+    "Thuyết trình 3 câu về một biểu đồ doanh thu.",
+    "Giải thích nguyên nhân giảm chi phí với thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "Mời xem biểu đồ:",
+     "options": [
+      "请大家看一下这张图表。",
+      "大家图表看请一下。",
+      "看图表大家请。"
+     ],
+     "answer": 0,
+     "explanation": "请 + người + V + 一下."
+    },
+    {
+     "prompt": "“Tăng 15% so với quý trước.”",
+     "options": [
+      "比上季度百分之十五增长",
+      "增长比上季度了十五百分",
+      "比上季度增长了百分之十五"
+     ],
+     "answer": 2,
+     "explanation": "比 + B + 增长了 + số."
+    },
+    {
+     "prompt": "「下降」 nghĩa là:",
+     "options": [
+      "giảm xuống",
+      "tăng lên",
+      "giữ nguyên"
+     ],
+     "answer": 0,
+     "explanation": "下降 = giảm."
+    },
+    {
+     "prompt": "Nêu nguyên nhân trang trọng:",
+     "options": [
+      "而且……",
+      "可是……",
+      "由于……"
+     ],
+     "answer": 2,
+     "explanation": "由于 = do, bởi vì."
+    },
+    {
+     "prompt": "「下降」 có nghĩa là gì?",
+     "options": [
+      "tăng trưởng",
+      "giảm xuống",
+      "doanh thu bán hàng"
+     ],
+     "answer": 1,
+     "explanation": "「下降」 [xiàjiàng] = giảm xuống."
+    },
+    {
+     "prompt": "「下降」 đọc là gì?",
+     "options": [
+      "xiāoshòu'é",
+      "xiàjiàng",
+      "zēngzhǎng"
+     ],
+     "answer": 1,
+     "explanation": "「下降」 đọc là [xiàjiàng], nghĩa là giảm xuống."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿提高了。  (Doanh thu đã tăng.)",
+     "options": [
+      "销售额",
+      "图表",
+      "季度"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「销售额」 (doanh thu bán hàng). Câu đầy đủ: 销售额提高了。"
+    },
+    {
+     "prompt": "「销售额」 có nghĩa là gì?",
+     "options": [
+      "doanh thu bán hàng",
+      "quý",
+      "biểu đồ"
+     ],
+     "answer": 0,
+     "explanation": "「销售额」 [xiāoshòu'é] = doanh thu bán hàng."
+    },
+    {
+     "prompt": "「销售额」 đọc là gì?",
+     "options": [
+      "jìdù",
+      "xiāoshòu'é",
+      "túbiǎo"
+     ],
+     "answer": 1,
+     "explanation": "「销售额」 đọc là [xiāoshòu'é], nghĩa là doanh thu bán hàng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 用户＿＿＿很快。  (Người dùng tăng nhanh.)",
+     "options": [
+      "图表",
+      "增长",
+      "季度"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「增长」 (tăng trưởng). Câu đầy đủ: 用户增长很快。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "business-b2-1",
    "level": "B2",
    "unit": "HSK 5 · Bài 1",
@@ -1598,6 +2174,198 @@
      ],
      "answer": 2,
      "explanation": "Đáp án: 「付款」 (thanh toán). Câu đầy đủ: 付款期限是三十天。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-b2-3",
+   "level": "B2",
+   "unit": "HSK 5 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Xử lý xung đột và góp ý",
+   "objective": "Góp ý khéo léo, nhận phản hồi và giải quyết bất đồng.",
+   "reading": "小明: 王姐,现在方便吗?我想跟你商量一下报告的事。\n同事: 方便,你说。\n小明: 数据部分我觉得可以再补充一些依据,这样更有说服力。\n同事: 有道理,谢谢你的建议。",
+   "dialogue": [
+    {
+     "speaker": "小明",
+     "text": "王姐,现在方便吗?我想跟你商量一下报告的事。",
+     "phonetic": "Wáng jiě, xiànzài fāngbiàn ma? Wǒ xiǎng gēn nǐ shāngliang yíxià bàogào de shì.",
+     "translation": "Chị Vương, giờ chị tiện không? Em muốn bàn với chị về bản báo cáo."
+    },
+    {
+     "speaker": "同事",
+     "text": "方便,你说。",
+     "phonetic": "Fāngbiàn, nǐ shuō.",
+     "translation": "Tiện, em nói đi."
+    },
+    {
+     "speaker": "小明",
+     "text": "数据部分我觉得可以再补充一些依据,这样更有说服力。",
+     "phonetic": "Shùjù bùfen wǒ juéde kěyǐ zài bǔchōng yìxiē yījù, zhèyàng gèng yǒu shuōfúlì.",
+     "translation": "Phần số liệu em nghĩ có thể bổ sung thêm căn cứ, như vậy sẽ thuyết phục hơn."
+    },
+    {
+     "speaker": "同事",
+     "text": "有道理,谢谢你的建议。",
+     "phonetic": "Yǒu dàolǐ, xièxie nǐ de jiànyì.",
+     "translation": "Có lý, cảm ơn góp ý của em."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "商量",
+     "reading": "shāngliang",
+     "definition": "bàn bạc",
+     "example": "我们商量一下吧。 (Chúng ta bàn bạc chút nhé.)"
+    },
+    {
+     "term": "补充",
+     "reading": "bǔchōng",
+     "definition": "bổ sung",
+     "example": "我补充一点。 (Tôi bổ sung một điểm.)"
+    },
+    {
+     "term": "依据",
+     "reading": "yījù",
+     "definition": "căn cứ",
+     "example": "请提供依据。 (Xin đưa ra căn cứ.)"
+    },
+    {
+     "term": "建议",
+     "reading": "jiànyì",
+     "definition": "góp ý, đề xuất",
+     "example": "谢谢你的建议。 (Cảm ơn góp ý của bạn.)"
+    },
+    {
+     "term": "误会",
+     "reading": "wùhuì",
+     "definition": "hiểu lầm",
+     "example": "这是一个误会。 (Đây là một sự hiểu lầm.)"
+    }
+   ],
+   "grammar": {
+    "title": "Góp ý mềm mỏng",
+    "explanation": "Mở lời: 现在方便吗?我想跟你商量一下……. Góp ý: 我觉得可以……, 这样更…… (giảm mức khẳng định). Nhận góp ý: 有道理,谢谢你的建议. Giải tỏa: 可能有点儿误会.",
+    "examples": [
+     "我觉得也许还有别的办法。[wǒ juéde yěxǔ hái yǒu bié de bànfǎ] (Tôi nghĩ có lẽ còn cách khác.)",
+     "我们再确认一下吧。[wǒmen zài quèrèn yíxià ba] (Chúng ta xác nhận lại nhé.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng mềm khi góp ý",
+    "tip": "Dùng 一下, 一些, 也许 để làm mềm câu. Âm 商量 shāngliang (liang nhẹ), 说服力 shuōfúlì.",
+    "words": [
+     "商量",
+     "补充",
+     "建议",
+     "误会"
+    ]
+   },
+   "speakingTasks": [
+    "Góp ý cho đồng nghiệp về một tài liệu một cách khéo léo.",
+    "Giải quyết một hiểu lầm về lịch họp với thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "Mở lời xin thời gian lịch sự:",
+     "options": [
+      "现在方便吗?",
+      "听我说!",
+      "你快过来!"
+     ],
+     "answer": 0,
+     "explanation": "方便吗 = có tiện không."
+    },
+    {
+     "prompt": "Góp ý mềm mỏng:",
+     "options": [
+      "我觉得可以再补充一些依据。",
+      "这个完全不对。",
+      "你必须重写!"
+     ],
+     "answer": 0,
+     "explanation": "我觉得可以…… làm mềm câu."
+    },
+    {
+     "prompt": "Đáp lại khi được góp ý:",
+     "options": [
+      "有道理,谢谢你的建议。",
+      "关你什么事?",
+      "我不想听。"
+     ],
+     "answer": 0,
+     "explanation": "Thể hiện sự cầu thị."
+    },
+    {
+     "prompt": "「误会」 nghĩa là:",
+     "options": [
+      "hiểu lầm",
+      "giải pháp",
+      "kết luận"
+     ],
+     "answer": 0,
+     "explanation": "误会 = hiểu lầm."
+    },
+    {
+     "prompt": "「误会」 có nghĩa là gì?",
+     "options": [
+      "hiểu lầm",
+      "bổ sung",
+      "góp ý, đề xuất"
+     ],
+     "answer": 0,
+     "explanation": "「误会」 [wùhuì] = hiểu lầm."
+    },
+    {
+     "prompt": "「误会」 đọc là gì?",
+     "options": [
+      "bǔchōng",
+      "wùhuì",
+      "jiànyì"
+     ],
+     "answer": 1,
+     "explanation": "「误会」 đọc là [wùhuì], nghĩa là hiểu lầm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 谢谢你的＿＿＿。  (Cảm ơn góp ý của bạn.)",
+     "options": [
+      "依据",
+      "商量",
+      "建议"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「建议」 (góp ý, đề xuất). Câu đầy đủ: 谢谢你的建议。"
+    },
+    {
+     "prompt": "「补充」 có nghĩa là gì?",
+     "options": [
+      "hiểu lầm",
+      "bổ sung",
+      "góp ý, đề xuất"
+     ],
+     "answer": 1,
+     "explanation": "「补充」 [bǔchōng] = bổ sung."
+    },
+    {
+     "prompt": "「建议」 đọc là gì?",
+     "options": [
+      "shāngliang",
+      "yījù",
+      "jiànyì"
+     ],
+     "answer": 2,
+     "explanation": "「建议」 đọc là [jiànyì], nghĩa là góp ý, đề xuất."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 我＿＿＿一点。  (Tôi bổ sung một điểm.)",
+     "options": [
+      "误会",
+      "补充",
+      "建议"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「补充」 (bổ sung). Câu đầy đủ: 我补充一点。"
     }
    ],
    "audioIds": []

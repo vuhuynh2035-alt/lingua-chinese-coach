@@ -1,7 +1,7 @@
 from build import L
 
 TITLE = "Tiếng Trung công sở"
-OVERVIEW = "8 bài từ HSK 1 đến HSK 5 cho môi trường văn phòng Trung Quốc: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, tiếp khách và thương lượng."
+OVERVIEW = "12 bài từ HSK 1 đến HSK 5 cho môi trường văn phòng Trung Quốc: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, tiếp khách và thương lượng."
 
 LESSONS = [
     L("A1", "Giao tiếp", "Giới thiệu công ty và chức vụ",
@@ -172,3 +172,7 @@ LESSONS = [
        ("「成交」 nghĩa là:", ["chốt giao dịch", "hủy hợp đồng", "báo giá"], 0, "成交 = chốt giao dịch.")],
       ["Thương lượng giá với khách hàng: nêu lợi thế, nhượng bộ có điều kiện.", "Kết thúc buổi đàm phán bằng một lời chốt thỏa thuận."]),
 ]
+
+from extras import BUSINESS  # noqa: E402
+
+LESSONS += BUSINESS

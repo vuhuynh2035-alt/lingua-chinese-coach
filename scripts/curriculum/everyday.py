@@ -1,7 +1,7 @@
 from build import L
 
 TITLE = "Tiếng Trung giao tiếp hằng ngày"
-OVERVIEW = "12 bài từ HSK 1 đến HSK 5: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có pinyin và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu."
+OVERVIEW = "16 bài từ HSK 1 đến HSK 5: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có pinyin và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu."
 
 LESSONS = [
     # ---------------- HSK 1-2 ----------------
@@ -259,3 +259,7 @@ LESSONS = [
        ("Chủ nhà gắp thức ăn cho khách thể hiện điều gì?", ["Sự nhiệt tình", "Sự giận dữ", "Sự thiếu quan tâm"], 0, "Gắp thức ăn cho khách là cách thể hiện thân thiện.")],
       ["Giải thích một quy tắc ứng xử khi đi ăn cùng người Trung Quốc.", "So sánh một phép lịch sự giữa Việt Nam và Trung Quốc."]),
 ]
+
+from extras import EVERYDAY  # noqa: E402
+
+LESSONS += EVERYDAY
